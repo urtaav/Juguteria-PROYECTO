@@ -1,0 +1,400 @@
+.menu{
+position: fixed;
+top: 0px;
+left:0;
+right: 0;
+width: 100%;
+height: auto;
+background:#0099CC;
+text-align: center;
+border: 2px solid black;
+box-shadow: 5px 7px 10px black;
+border-radius: 1px;
+}
+
+.facebook{
+position: fixed;
+top: 160;
+left: 0;
+border: 5px solid black;
+margin: 20px 0px 20px;
+border-radius: 8px;
+}
+
+.fondoBlanco{
+background: white;
+text-align: center;
+}
+
+.paqueteria1:hover{
+    -webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2); 
+}
+
+.titulo{
+width: 980;
+height: auto;
+
+border: 4px solid black;
+margin: 20px 0px 20px;
+
+border-radius: 8px;
+background: white; 
+}
+.titulo{
+width: 980;
+height: auto;
+
+border: 0px solid black;
+margin: 20px 0px 20px;
+
+border-radius: 8px;
+background: white; 
+}
+.coments{
+width: 940;
+height: auto;
+border: 1px solid black;
+margin: 20px 0px 20px;
+
+box-shadow: 5px 7px 10px black;
+background: white;
+border-radius: 25px;
+
+
+}
+
+.coments2{
+background-color:lightcoral;
+color: white;
+width: 900px;
+height: auto;
+border: 5px solid black;
+border-radius: 10px;
+}
+
+.body{
+background-image:white; /*url('../imagenes/fondo.jpg');*/
+background-size: cover; 
+}
+
+.anclaje{
+position: fixed;
+top: 150;
+right: 0px;
+border: 5px solid black;
+margin: 20px 0px 20px;
+box-shadow: 5px 7px 10px black;
+border-radius: 40px;
+}
+
+.products{
+width: 980px;
+height: auto;
+border: 2px solid black;
+margin: 20px 0px 20px;
+border-radius: 20px;
+background: white;
+
+
+}
+
+.products div{
+width: 280px;
+height: auto;
+border: 1px solid black;
+float: left;
+margin: 10px 10px 10px 10px;
+box-shadow: 5px 7px 10px black;
+background: #FFFFFF;
+border-radius: 50px;
+
+
+}
+.products div:hover{
+    -webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+}
+
+.imagendetalle{
+box-shadow: 2px 4px 5px black;
+border-radius: 30px;
+}
+.imagendetalle:hover{
+-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+}
+
+.articulodetalle{
+width: 700;
+height: auto;
+
+border-radius: 8px;
+background-image:white; /*url('../imagenes/fondodetalle.jpg');*/
+background-size: cover; 
+}
+
+.articuloverificar{
+width: 700;
+height: auto;
+color: black;
+border-radius: 8px;
+background-image:black;/*url('../imagenes/fondonegro.jpg');*/
+background-size: cover; 
+}
+
+.fondoBoton{
+background:#FF0000;
+text-align: center;
+border-radius: 8px;
+border: 2px;
+color:black;
+}
+
+.fondoformulario{
+width: 930;
+height: auto;
+background: #B4B4B4;
+text-align: center;
+border-radius: 8px;
+border: 1px;
+color: white;
+}
+
+
+.fondoArticulo{
+width: 930;
+height: auto;
+
+border-radius: 8px;
+background-image: white;/*url('../imagenes/fondodetalle.jpg');*/
+background-size: cover; 
+
+}
+
+.foto{
+border-radius: 50px;
+}
+
+.facebook2{
+position: fixed;
+top: 420;
+left: 0;
+text-align: center;
+border-radius: 8px;
+color:black;
+background: white;
+box-shadow: 1px 2px 3px black;
+border: 5px solid black;
+margin: 20px 0px 20px;
+}
+
+.contactanos{
+position: fixed;
+top: 570;
+left: 0;
+border: 2px solid black;
+margin: 20px 0px 20px;
+background: linear-gradient(#FFFFFF,#D2D2D2);/*color gradiante*/
+text-align: center;
+border-radius: 8px;
+color:black;
+
+
+}
+
+.fondoAzul{
+background: linear-gradient(#FFFFFF,#D2D2D2);/*color gradiante*/
+border: 1px solid black;
+margin: 20px 0px 20px;
+border-radius: 8px;
+box-shadow: 5px 7px 10px black;
+color: bLACK;
+}
+/*------------------------------------------------------------------------------------------*/
+
+.slider{
+	 width:40%;
+	 margin:auto;
+	 overflow:hidden;
+     padding-top: 50px;
+ }
+ .slider ul{
+	display:flex;
+     padding:0;	 
+     width:700%;
+
+animation:cambio 10s infinite alternate;
+ }
+ .slider li{
+	 width:100%;
+	 list-style:none;
+ }
+ .slider img{
+	 width:100.social {
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	left: 0; /* Establecemos la barra en la izquierda */
+	top: 200px; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+ 
+	.social ul {
+		list-style: none;
+	}
+ 
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+	}
+ 
+	.social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .icon-twitter {background: #00abf0;}
+	.social ul li .icon-googleplus {background: #d95232;}
+	.social ul li .icon-pinterest {background: #ae181f;}
+	.social ul li .icon-mail {background: #666666;}
+ 
+	.social ul li a:hover {
+		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	}
+
+     border-radius: 50px
+ }
+.social {
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	left: 0; /* Establecemos la barra en la izquierda */
+	top: 200px; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+ 
+	.social ul {
+		list-style: none;
+	}
+ 
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+	}
+ 
+	.social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .icon-twitter {background: #00abf0;}
+	.social ul li .icon-googleplus {background: #d95232;}
+	.social ul li .icon-pinterest {background: #ae181f;}
+	.social ul li .icon-mail {background: #666666;}
+ 
+	.social ul li a:hover {
+		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	}
+/*-------------------------------------footer------------------------------------*/
+.footer{
+    background:black;
+    align-content: center;
+    padding:20px;
+    text-align: center;
+    color: aliceblue;
+   position: relative;
+}
+.footer p{
+        font-size: 15px;
+    }
+.icon-facebook{
+    color: #fff;
+    text-decoration:none;
+    font-size: 30px;
+    padding: 10px;
+    background: rgba(0,0,0,0.7);
+    border-radius: 50px;
+}
+.icon-facebook:hover{
+background:#002AFF;    
+
+}
+.icon-twitter{
+    color: #fff;
+    text-decoration:none;
+    font-size: 30px;
+    padding: 10px;
+    background: rgba(0,0,0,0.7);
+    border-radius: 50px;
+}
+.icon-twitter:hover{
+background:#007FFF;    
+}
+.icon-google{
+    color: #fff;
+    text-decoration:none;
+    font-size: 30px;
+    padding: 10px;
+    background: rgba(0,0,0,0.7);
+    border-radius: 50px;
+}
+.icon-google:hover{
+background:#FF0000;    
+}
+.icon-instagram{
+    color: #fff;
+    text-decoration:none;
+    font-size: 30px;
+    padding: 10px;
+    background: rgba(0,0,0,0.7);
+    border-radius: 50px;
+   }
+.icon-instagram:hover{
+background:#D5802B;   
+    
+}
+.icon-pinterest{
+    color: #fff;
+    text-decoration:none;
+    font-size: 30px;
+    padding: 10px;
+    background: rgba(0,0,0,0.7);
+    border-radius: 50px;
+   }
+.icon-pinterest:hover{
+background:#D5802B;   
+    
+}
+
+.icon-mail{
+    color: #fff;
+    text-decoration:none;
+    font-size: 30px;
+    padding: 10px;
+    background: rgba(0,0,0,0.7);
+    border-radius: 50px;
+   }
+.icon-mail:hover{
+background:#D5802B;   
+    
+}
+/*----------------meu secundario ----------------------*/
+ul.fmenu {list-style:none;float:right;width:auto}
+ul.fmenu li {margin:0;padding:0 4px;float:left}
+ul.fmenu li a {display:block;padding:2px 6px;color:#fff;text-decoration:none}
+ul.fmenu li a:hover{
+    background: #002AFF; 
+}
+ul.fmenu li.active a {background:#c69c6d}
+ol {list-style:none}
+ol li {display:block;clear:both}
+ol li label {display:block;margin:0;padding:16px 0 0 0}
+ol li input.text {width:480px;border:1px solid #c0c0c0;margin:2px 0;padding:5px 2px;height:16px;background:#fff}
+ol li textarea {width:480px;border:1px solid #c0c0c0;margin:2px 0;padding:2px;background:#fff}
+ol li .send {margin:16px 0 0 0}
+
+
+/*buscador ----------------*/
